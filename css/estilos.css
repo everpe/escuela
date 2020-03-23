@@ -1,0 +1,157 @@
+
+html,
+body {
+    height: 100%;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+/* .primero{
+  text-align: center;
+  font-family: Impact;  
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 10px 5px;
+  font-size: 20px;
+  background: -webkit-linear-gradient(left, rgba(48,142,243,1) 0%, 
+  rgba(48,142,243,1) 0%, rgba(48,142,243,1) 47%, rgba(96,176,246,1) 63%);
+color: white;
+} */
+
+.navbar{
+    /* background: rgba(53, 187, 187, 0.5); */
+    background: rgb(39, 109, 66);
+  background: -webkit-linear-gradient(center, rgb(183, 198, 199), rgb(78, 124, 133));
+  background: -o-linear-gradient(center, rgb(192, 213, 214), rgb(38, 114, 119));
+  /* background: linear-gradient(to left, rgb(193, 206, 207), rgb(24, 105, 112)); */
+  background: linear-gradient(to right, rgb(193, 206, 207), rgb(24, 105, 112));
+  
+
+  background: -webkit-linear-gradient(left, rgb(29, 189, 128) 0%, 
+  rgb(69, 238, 196) 0%, rgb(68, 172, 204) 47%, rgb(76, 168, 196) 63%);
+
+    font-weight: 600;
+    color:black;
+    transition: 1s;
+}
+#enlace-inicio,#enlace-quien_somos,#enlace-formacion,#enlace-servicios,#enlace-contacto{
+  color:   rgb(250, 250, 250);
+}
+.navbar-toggler-icon{
+  color: black;
+}
+/* cover */
+/* #cover {
+    background: #222 url('../img/night-sky-2284594.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-texto {
+    width: 100%;
+    
+}
+
+#cover-texto .form-inline{
+    width: 100%;
+} */
+#carousel img{
+    width: 100%;
+    height: auto;
+}
+
+.after::after{ /*-Agrega La linea naranaja debajo de los parrafos*/
+    content: '';
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 100px;
+    height: 2px;
+    background: rgb(219,144,0.5);
+    margin-bottom:5px;
+  }
+.work-contenedor{
+    justify-content: center;
+    text-align: center;
+}
+.work-contenedor h3{
+    color: rgb(219,144,0.5);
+}
+.botones-work{
+    overflow: hidden;
+    justify-content: center;
+  }
+  .botones-work li{
+    display:inline-block;
+    text-align: center;
+    margin:2px;
+    margin-bottom: var(--espacios-contenido);
+    padding: 6px 12px;
+    border: 1px solid rgb(219,144,0.5);
+    list-style: none;
+    color: rgba(173, 123, 16, 0.5);
+  }
+  .botones-work li:hover {
+    background-color:rgb(219,144,0.5);
+    color: white;
+    cursor: pointer;
+  }
+  .botones-work .active{
+    background-color: rgb(219,144,0.5);
+    color: white;
+  }
+  
+  #formacion .galeria-work{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    height: auto;
+  }
+.contenido-seccion {
+    padding: 5rem 0;
+}
+
+#acerca-de {
+    background: url('../img/catedral.jpeg') center center no-repeat;
+    background-size: cover;
+}
+
+.texto-acerca-de {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+/* #footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+} */
+
+footer{
+  background-color:rgb(50, 58, 59);
+  color: white;
+}
+.marca-aliados li{
+  display: inline;
+}
+.marca-aliados img{
+  /* width: 72px; */
+  height:45px ;
+  margin: 2px;
+  margin-top: 4px;
+}
+.marca-aliados #mincultura {width: 178px;}
+.marca-aliados #escuelas {width: 181px;}
+.marca-aliados #sena {width: 47px;}
+.marca-aliados #paisaje {width: 45px;}
+.marca-aliados #gobernacion {width: 115px;}

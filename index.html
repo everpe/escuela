@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Etiquetas meta siempre van primero -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Escuela Taller</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Estilos CSS personalizados -->
+    <link rel="stylesheet" href="css/estilos.css"> 
+    
+    <link rel="stylesheet" href="css/estilosCard.css"> 
+    
+  </head>
+  <body>
+    <nav  class="navbar navbar-toggleable-md navbar-inverse  ">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- <a class="navbar-brand" href="#">EscuelaTallerDeCaldas</a> -->
+        <a style="width: 90px;height: 60px;float: right;" href=""><img src="logos/logo1.png" alt=""></a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a id="enlace-inicio" class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a  id="enlace-quien_somos" class="nav-link" href="#">Conocenos</a>
+            </li>
+            <li class="nav-item">
+                <a  id="enlace-formacion"class="nav-link" href="#">Formación Académica</a>
+            </li>
+            <li class="nav-item">
+                <a id="enlace-servicios" class="nav-link" href="#">Servicios</a>
+            </li>
+            <li class="nav-item">
+                <a id="enlace-contacto" class="nav-link" >Contactanos</a>
+                <!-- <a href="#" id="enlace-contacto" class="btn-header">Contactanos</a>   -->
+            </li>
+           
+            </ul>
+           
+        </div>
+    </nav>
+    
+    <section id="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="img/fachada.jpeg" alt="Woman taking picture with a camera">
+                    
+                    <div class="carousel-caption">
+                        <h3>Fachada Escuela Taller de Caldas</h3>
+                        <p>Estamos trabajando por mantener y mejorar nuestras instalaciones</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/cuadro.jpeg" alt="A wet spiderweb">
+                    
+                    <div class="carousel-caption">
+                        <h3>Orquideas FETC</h3>
+                        <p>Hermosas Orquideas cultivadas en nuestra fundación</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/flor.jpeg" alt="Two hands making a heart">
+                    
+                    <div class="carousel-caption">
+                        <h3>Mujer con una motocicleta</h3>
+                        <p>Amo las motocicletas</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/restaurante.jpeg" alt="Two hands making a heart">
+                    
+                    <div class="carousel-caption">
+                        <h3>Sabores De Antaño</h3>
+                        <p>Restaurante de Comida tradicional Colombiana te esperamos</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/eventos.jpeg" alt="Two hands making a heart">
+                    
+                    <div class="carousel-caption">
+                        <h3>Salón de Eventos</h3>
+                        <p>Salón disponible para alquilar
+                            en eventos,actividades públicas y privadas </p>
+                    </div>
+                </div>
+            </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+              </a>
+            </div>        
+    </section>
+    
+    <!-- <section id="empresa">
+         <div class="contenido-seccion">
+             <div class="container">
+                 <h2>Acerca de Render2Web</h2>
+                 <p class="lead">Render2Web Blog y Canal youtube especializados en enseñanza online en diferentes áreas como el diseño, desarrollo, programacion, visualización 3D y tecnología</p>
+             
+                 <div class="row">
+                     <div class="col-sm-12">
+                         <div class="card-group">
+                             <div class="card">
+                                 <div class="card-block">
+                                     <h4 class="card-title">Fotografía Profesional</h4>
+                                     <h6 class="card-subtitle">Subtítulo de tarjeta</h6>
+                                 </div>
+                                 <img src="img/camera-801924_1280.jpg" alt="a chalkboard">
+                                 <div class="card-block">
+                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Ver más</button>
+                                 </div>
+                             </div>
+
+                             <div class="card">
+                                 <div class="card-block">
+                                     <h4 class="card-title">Diseño y Creatividad</h4>
+                                     <h6 class="card-subtitle">Subtítulo de tarjeta</h6>
+                                 </div>
+                                 <img src="img/computer-2242262_1280.jpg" alt="escribiendo ideas">
+                                 <div class="card-block">
+                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi debitis fugit molestias dignissimos, id hic officiis quam possimus tenetur minima voluptatibus accusantium, numquam voluptates velit, dicta maiores dolor quo expedita.</p>
+                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Ver más</button>
+                                 </div>
+                             </div>
+
+                             <div class="card">
+                                 <div class="card-block">
+                                     <h4 class="card-title">Programación</h4>
+                                     <h6 class="card-subtitle">Subtítulo de tarjeta</h6>
+                                 </div>
+                                 <img src="img/computer-2076343_1280.jpg" alt="programacion y sistemas TI">
+                                 <div class="card-block">
+                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi debitis fugit molestias dignissimos, id hic officiis quam possimus tenetur minima voluptatibus accusantium.</p>
+                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Ver más</button>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+    </section> -->
+    
+    <section class="work-contenedor" id="formacion">
+       <br><br>
+        <h3>Nuestra Oferta Académica</h3>
+        <br>
+            <div class="botones-work">
+                <ul>
+                    <li class="filter active" data-nombre="todos">Todos</li>
+                    <li class="filter " data-nombre="tecnicos">Técnicos</li>
+                    <li class="filter" data-nombre="complementarios">Cursos Complementarios</li>
+                    <li class="filter" data-nombre="fundacion">Cursos Fundación</li>
+                </ul>
+            </div>
+        <br>   
+    <div class="galeria-work">                   
+        <div  class="cont-work card complementarios" onclick="this.classList.toggle('expanded')">
+            <div>
+                <img src="imgCursos/auxPromocionP.JPG" alt="" >
+                <h3 class="after">Aux en Promoción de Productos</h3>
+                <div class="text1">
+                    <div class="text-content">
+                    <h1 class="title">Curso Complementario</h1>
+                    <div class="body-text">Auxiliar en promoción y venta de productos con 6 meses de teoría, 
+                        3 meses lectivos y 3 meses de etapa práctica.
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>      
+        
+        <div class="cont-work card complementarios" onclick="this.classList.toggle('expanded')">
+            <div>
+                <img src="imgCursos/cosmetologia.jpg" alt="" >
+                <h3 class="after">Cosmetologia</h3>
+                <div class="text1">
+                    <div class="text-content">
+                    <h1 class="title">Curso Complementario</h1>
+                    <div class="body-text">Curso de cosmetología enfocado 
+                    en el trato y decoración de las uñas de pies y manos</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cont-work card complementarios" onclick="this.classList.toggle('expanded')">
+            <div>
+                <img src="imgCursos/promocionOnline.jpg" alt="" >
+                
+                <h3 class="after">Estrategias de Promoción Online</h3>
+                <div class="text1">
+                    <div class="text-content">
+                    <h1 class="title">Curso Complementario</h1>
+                    <div class="body-text">Curso enfocado al marketing y la promoción de productos 
+                        aprovenchando el potencial mercado que nos ofrece el mundo web
+                         y de redes sociales 
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cont-work card complementarios" onclick="this.classList.toggle('expanded')">
+            <div>
+                <img src="imgCursos/sistemas.jpg" alt="" >                        
+                <h3 class="after">Sistemas Básicos y Avanzados</h3>
+                <div class="text1">
+                    <div class="text-content">
+                    <h1 class="title">Curso Complementario</h1>
+                    <div class="body-text">Curso enfocado al manejo y uso de ofimática básica y anavazada 
+                        así como el manejo y mantenimiento de equipos de computo </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cont-work card complementarios" onclick="this.classList.toggle('expanded')">
+            <div>
+                <img src="imgCursos/talentoHumano.jpg" alt="" >                        
+                <h3 class="after">Administración del Talento Humano</h3>
+                <div class="text1">
+                    <div class="text-content">
+                    <h1 class="title">Curso Complementario</h1>
+                    <div class="body-text">Curso enfocado a la planeación, organización, desarrollo
+                        y coordinación y el control establecido para promover el desempeño eficiente
+                        del recurso humano</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cont-work card complementarios " onclick="this.classList.toggle('expanded')">
+            <div>
+                <img src="imgCursos/barismo.jpg" alt="" >                        
+                <h3 class="after">Barismo</h3>
+                <div class="text1">
+                    <div class="text-content">
+                    <h1 class="title">Curso Complementario</h1>
+                    <div class="body-text">Curso enfocado en el  arte de preparar deliciosas y hermosas 
+                        bebidas  a base de las distintas variedades de cafés que existen. 
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cont-work card tecnicos" onclick="this.classList.toggle('expanded')">
+            <div>
+                <img src="imgCursos/electricidad.jpg" alt="" >                        
+                <h3 class="after">Electricidad </h3>
+                <div class="text1">
+                    <div class="text-content">
+                    <h1 class="title">Técnico Convenio-Sena</h1>
+                    <div class="body-text">Técnico en electricidad con certificado otorgado SENA, con
+                        una duración de 18 meses; 1 año  lectivo y 6 meses de practica.
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cont-work card tecnicos" onclick="this.classList.toggle('expanded')">
+            <div>
+                <img src="imgCursos/contabilidad2.jpg" alt="" >                        
+                <h3 class="after">Contabilización de Operaciones Públicas y Comerciales</h3>
+                <div class="text1">
+                    <div class="text-content">
+                    <h1 class="title">Técnico Convenio Sena</h1>
+                    <div class="body-text">Curso Técnico en contabilidad con certificado otorgado por el SENA con
+                        duración de 18 meses; 1 año lectivo y 6 meses de etapa practica</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cont-work card fundacion" onclick="this.classList.toggle('expanded')">
+            <div>
+                <img src="imgCursos/madera.jpg" alt="" >                        
+                <h3 class="after">Talla en Madera</h3>
+                <div class="text1">
+                    <div class="text-content">
+                    <h1 class="title">Curso Fetc</h1>
+                    <div class="body-text">Curso de talla en madera con énfasis en 
+                        diseño y elaboración de avisos comerciales
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cont-work card fundacion" onclick="this.classList.toggle('expanded')">
+            <div>
+                <img src="imgCursos/comida.JPG" alt="" >                        
+                <h3 class="after">Comida Tradicional Colombiana</h3>
+                <div class="text1">
+                    <div class="text-content">
+                    <h1 class="title">Curso Fetc</h1>
+                    <div class="body-text">Curso de cocina con distintos módulos, 
+                        enfocada en la elaboración de platos de la cocina típica colombiana
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cont-work card fundacion" onclick="this.classList.toggle('expanded')">
+            <div>
+                <img src="imgCursos/costura.jpg" alt="" >                        
+                <h3 class="after">Modisteria y Tejeduria</h3>
+                <div class="text1">
+                    <div class="text-content">
+                    <h1 class="title">Curso Fetc</h1>
+                    <div class="body-text ">Curso de modisteria y tejeduria con énfasis en la 
+                        elaboración de ropa coorporativa para empresas y establecimientos
+                        publicos y privados.
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cont-work card fundacion" onclick="this.classList.toggle('expanded')">
+            <div>
+                <img src="imgCursos/panaderia.jpg" alt="" >                        
+                <h3 class="after">Panaderia</h3>
+                <div class="text1">
+                    <div class="text-content">
+                    <h1 class="title">Curso Fetc</h1>
+                    <div class="body-text">Curso de horneado y panaderia con énfasis en 
+                        elaboración de postres, pasteles y bizcochos tradicionales.
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- <hr> -->
+    <br>
+    <section id="acerca-de">
+        <div class="contenido-seccion">
+            <div class="container">
+                <div class="col-md-8">
+                    <div class="texto-acerca-de">
+                        <h3>Fundación Escuela Taller de Caldas "Aprender Haciendo"</h3>
+                        <p class="lead">
+                            La Fundación Escuela Taller de Caldas y del Paisaje Cultural Cafetero
+                            Colombiano “FETC-PCCC” - “Herramientas de Paz”; basada en el modelo de
+                            “Aprender Haciendo” y fundamentada en sus pilares “Formación – Patrimonio –
+                            Paz”, es una Institución Educativa de formación para el
+                            trabajo y el desarrollo humano.
+                        </p>
+                        <p>
+                            A través de la formación
+                            en artes y oficios, la recuperación de materiales, técnicas
+                            constructivas y saberes tradicionales, dirigidos
+                            principalmente a la población en situación de
+                            vulnerabilidad, buscamos potenciar las capacidades
+                            individuales y colectivas para la salvaguarda,
+                            conservación e intervención del Patrimonio Cultural
+                            Colombiano,
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="texto-acerca-de">
+                        <h3>Misión</h3>
+                        <p>La Fundación Escuela Taller de Caldas y del Paisaje Cultural Cafetero
+                            Colombiano “FETC-PCCC” – “Herramientas de Paz”;
+                            basada en el modelo de “Aprender Haciendo” tiene como
+                            Misión la formación para el trabajo y el desarrollo humano
+                            integral de personas en situación de vulnerabilidad; la
+                            Construcción de Cultura de Paz y la conservación,
+                            salvaguarda, valoración e intervención del patrimonio
+                            cultural a través de la recuperación de materiales,
+                            técnicas constructivas y saberes tradicionales,</p>
+                        <h3>Visión</h3>    
+                        <p>
+                        “FETC-PCCC” en el 2.025, año del
+                        bicentenario de Salamina, será reconocida como la entidad
+                        líder en la formación para el trabajo y el desarrollo humano
+                        de personas en situación de vulnerabilidad y la construcción
+                        de cultura de paz, promotora y defensora del patrimonio
+                        arquitectónico, histórico y cultural del Departamento de
+                        Caldas y del Paisaje Cultural Cafetero Colombiano.
+                        </p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+<section id="noticias">
+    <div class="contenido-seccion">
+    <div class="container">
+            
+            <h3>Nuestras Unidades Productivas</h3>
+            <p class="lead">Desde nuestras unidades productivas 
+                buscamos ofrecer una serie de productos y servicios 
+                que están a la orden de nuestra comunidad del municipio de 
+                Salamania y del departamento de  Caldas, desde la fundación 
+                escuela Taller de Caldas te invitamos a que nos visites 
+                y conozcas nuestros productos y servicios </p>
+            
+            <hr>
+        
+            <div class="row">
+                <div class="col-sm-12">
+                    
+                    <div class="card-columns">
+                        <div class="card">
+                            <img class="card-img-top" src="logos/costura-01.jpg" alt="mujer con la cámara">
+                            <div class="card-block">
+                                <h4 class="card-title">Unidad Productiva Costura y Tejeduria</h4>
+                                <p class="card-text">Esta es una tarjeta más larga con el texto de apoyo a continuación como una introducción natural al contenido adicional. Este contenido es un poco más largo.</p>
+                            </div>
+                        
+                        </div>
+                        <div class="card card-block card-inverse  text-xs-center">
+                            <blockquote class="card-blockquote">
+                                <a class="btn btn-info" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Ver Más
+                                </a>
+                                </p>
+                                <div class="collapse" id="collapseExample">
+                                    <div class="card card-body" style="color: black;">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+
+                        <div class="card">
+                            <img class="card-img-top" src="logos/sabores antaño-01.png" alt="cielo y estrellas">
+                            <div class="card-block">
+                                <h4 class="card-title">Unidad Productiva Restaurante Sabores de Antaño</h4>
+                                <p class="card-text">Esta tarjeta tiene el texto de apoyo a continuación como un lead-in natural a contenido adicional.</p>
+                                <p class="card-text"><small class="text-muted">A cargo de Pliar..</small></p>
+                            </div>
+                        </div>
+                        <div class="card card-block card-inverse  text-xs-center">
+                            <blockquote class="card-blockquote">
+                                <a class="btn btn-info" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Ver Más
+                                </a>
+                                </p>
+                                <div class="collapse" id="collapseExample3">
+                                    <div class="card card-body" style="color:black;">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div> 
+
+                        <div class="card">
+                            <img class="card-img-top" src="logos/maderas-01.jpg" alt="cielo y estrellas">
+                            <div class="card-block">
+                                <h4 class="card-title">Unidad Productiva Maderas y Artesanias</h4>
+                                <p class="card-text">Esta tarjeta tiene el texto de apoyo a continuación como un lead-in natural a contenido adicional.</p>
+                                <p class="card-text"><small class="text-muted">Actualizado hace 5 minutos</small></p>
+                            </div>
+                        </div>
+                        <div class="card card-block card-inverse  text-xs-center">
+                            <blockquote class="card-blockquote">
+                                   <a class="btn btn-info" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        Ver Más
+                                    </a>
+                                    </p>
+                                    <div class="collapse" id="collapseExample2">
+                                        <div class="card card-body" style="color:black;">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                        </div>
+                                    </div>
+                            </blockquote>
+                        </div>
+
+                          
+                     
+
+                        <!-- <div class="card">
+                            <img class="card-img" src="img/keyboard-886462_1280.jpg" alt="Teclado de un computador">
+                        </div>
+                        <div class="card card-block text-xs-right card-warning card-inverse">
+                            <blockquote class="card-blockquote">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                <footer>
+                                    <small class="text-muted">
+                                    Teclado portatil <cite title="titulo">Título</cite>
+                                    </small>
+                                </footer>
+                            </blockquote>
+                        </div>
+                        <div class="card card-block">
+                            <h4 class="card-title">Título de tarjeta</h4>
+                            <p class="card-text">Ésta es una tarjeta más ancha con el texto de apoyo abajo como lead-in natural al contenido adicional. Esta tarjeta tiene un contenido aún más largo que el primero para mostrar que la acción de altura igual.</p>
+                            <p class="card-text"><small class="text-muted">Actualizado hace 6 minutos</small></p>
+                        </div> -->
+                    </div>
+            </div>    
+    
+    </div>
+    </div>
+</section>
+
+    
+    
+    <!-- <footer id="contacto">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <p>Creado por Render2Web</p>
+                    <p>desarrollo <a href="http://www.render2web.com">Render2Web</a></p>
+                </div>
+                <div class="col-sm-3">
+                    <ul class="list-unstyled">
+                        <li><a href="">Inicio</a></li>
+                        <li><a href="">Acerca de</a></li>
+                        <li><a href="">Render2Web</a></li>
+                        <li><a href="">Últimas noticias</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <ul class="list-unstyled">
+                        <li><a href="">facebook</a></li>
+                        <li><a href="">twitter</a></li>
+                        <li><a href="">youtube</a></li>
+                        <li><a href="">linkedin</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h6>Info</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam expedita fugit saepe, eum ad, quam! Eum magnam suscipit nulla ullam aliquam consectetur provident, nihil consequuntur porro labore asperiores corrupti esse?</p>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+
+    <!-- Footer -->
+<footer id="contacto" class="page-footer font-small stylish-color-dark pt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">
+  
+          <!-- Content -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Fetc-pccc</h5>
+          <p>Fundación Escuela Taller de Caldas y del Patrimonio Cultural Cafetero Colombiano
+            creada mediante acta No. 001 del 16 de Junio de 2010, de participación mixta,
+            dotada de personería jurídica, autonomía y patrimonio propio,al amparo de la
+            Ley 498 de 1998 y el código civil colombiano y sus estatutos</p>
+  
+        </div>
+        <!-- Grid column -->
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+                <a id="enlace-inicio" class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            
+            </li>
+            <li>
+                <a  id="enlace-quien_somos" class="nav-link" href="#">Conocenos</a>
+            </li>
+            <li>
+                <a  id="enlace-formacion"class="nav-link" href="#">Formación Académica</a>
+            </li>
+            <li>
+                <a id="enlace-servicios" class="nav-link" href="#">Servicios</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Medios de Contacto</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+                <a class="ins-ic">
+                    <img src="logos/correoBlanco.png" alt=""><span> atencion@fescuelatallerdecaldas-pccc.org</span>
+                </a>
+            </li>
+            <li>
+                <a class="ins-ic">
+                    <img src="logos/correoBlanco.png" alt=""><span> formacion@fescuelatallerdecaldas-pccc.org</span>
+                </a>
+            </li>
+            <li>
+                <a class="ins-ic">
+                    <img src="logos/correoBlanco.png" alt=""><span> direccionejecutiva@fescuelatallerdecaldas-pccc.org</span>
+                </a>
+            </li>
+            <li>
+                <a class="ins-ic">
+                    <img src="logos/whatsapp.png" alt=""><span> 3136445461-3137919869</span>
+                </a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <hr>
+  
+    <div class="marca-aliados">
+      
+        <ul class="list-unstyled list-inline text-center py-2">
+            <li class="list-inline-item">Nuestros Aliados:</li>
+            <li class="list-inline-item"> <a href="https://europa.eu/european-union/index_es">
+                <img id="unionEuropea" src="imagenes/unionEuropea.png" alt="mincultura"></a>
+            </li>
+            <li class="list-inline-item"> <a href="https://www.mincultura.gov.co/ministerio/Paginas/default.aspx">
+                <img id="mincultura" src="imagenes/logoMincultura.png" alt="mincultura"></a>
+            </li>
+            <li class="list-inline-item"> <a href="http://www.sena.edu.co/es-co/Paginas/default.aspx">
+                <img id="sena" src="imagenes/logoSena.png" ></a>
+            </li>
+            <li class="list-inline-item"> <a href="http://paisajeculturalcafetero.org.co/">
+                <img id="paisaje" src="imagenes/logoPaisaje.png" alt=""></a>
+            </li>
+            <li class="list-inline-item"> <a href="https://caldas.gov.co/">
+                <img id="gobernacion" src="imagenes/logoGobernacion.jpg" alt=""></a>
+            </li>
+            <li class="list-inline-item"> <a href="http://www.salamina-caldas.gov.co/">
+                <img id="salamina" src="imagenes/logoSalamina.png" alt=""></a>
+            </li>
+
+        </ul>
+    </div>
+
+    <!-- Call to action -->
+    <hr>
+    <!-- Redes Sociales -->
+    <ul class="list-unstyled list-inline text-center">
+        <h5 class="mb-1">Siguenos en nuestras redes sociales</h5>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <!-- <i class="fab fa-facebook-f"> </i> -->
+            <a href="#"><img src="redes/facebook.png" alt=""></a>    
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+            <a href="#"><img src="redes/twitter2.png" alt=""></a> 
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+            <a href="#"><img src="redes/youtube2.png" alt=""></a> 
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+            <a href="#"><img src="redes/instagram2.png" alt=""></a> 
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-1">
+          <i class="fab fa-dribbble"> </i>
+        </a>
+      </li>
+    </ul>
+    <!-- Social buttons -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://github.com/everpe"> everpe</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/jscript" src="js/filtro.js"></script>
+    <script type="text/jscript" src="js/filtro.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
